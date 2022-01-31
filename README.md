@@ -1,6 +1,6 @@
-# Frontend Mentor - Blogr landing page solution
+# Frontend Mentor - 3-column preview card component solution
 
-This is a solution to the [Blogr landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/blogr-landing-page-EX2RLAApP). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [blogr-landing-page](https://www.frontendmentor.io/challenges/blogr-landing-page-EX2RLAApP). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
@@ -12,10 +12,7 @@ This is a solution to the [Blogr landing page challenge on Frontend Mentor](http
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
 
 
 ## Overview
@@ -24,18 +21,17 @@ This is a solution to the [Blogr landing page challenge on Frontend Mentor](http
 
 Users should be able to:
 
-- View the optimal layout for the site depending on their device's screen size
-- See hover states for all interactive elements on the page
+- View the optimal layout depending on their device's screen size
+- See hover states for interactive elements - in the case of this challenge, the only interactive state is the cursor should change to a pointer when hovered over the "button."
 
 ### Screenshot
 
-![](https://lh3.googleusercontent.com/3_t_pd18PxO5e4PXcoaugPfwU3kuj-hlaUhbQ9pbMw7szuEDtvKcUmRaEp2cy4Ag6LC81gr4deEFtrZ4FM8qzlAizzqwNE1etzCffA9Is-kvwn-Xr2H3W1F03EIbWV6ipvTo3086BFO5p1ey7OAJVbomcB5qksoEMMMTs28V5ObXtGf-EUXXz4n5MMXz8EisWiyfOCxH6hVx-aIaNjOSp9JgPluKVyxBIYierw0yUjVsotTc7eD9tZUidUjJ08SFcW0g3V6_JyQc0DaT3l3M_bkxMoWxWNEZM_STz7z-NFGwlumr9z_iRb7_lGbLhGoO8jqwqtq3JNON-6LEMCQ6qn9IcqItywt52i6VO1Tyz5r1k6hGz6_VVgRuoxoega9ZRmHuV_6Nhy4eh2C_Y0FxbO1DUP4ipki5BE4Oi1KYytZXV5fgVNgosm8ODh_KOV8ldPYu6EDOU-mzXzhp9m4dG8ahfTngnpmPndtdFlNATQ5D1jdB1ev4AQ4PbdUB4aCEscVjkdxD38WxULrd2UyEnLZHAB65sQ1rgw1I1vJ70HtNZIDQttc2yRSwRZc9FgsZyz4806UgseAKxQVFOjS9auKMPhg-BOox9ZA7Sj3K89AF32s14gaUSTQBDO_uuG0N_VGB8a018A3E46Ttn9TV06WE0w0LBE80xW8mtMurPDz8aLtyFgw5xpMKiyM1oUG2L1GTn3XWb9vYgj8luy3pYkyD=w332-h169-no?authuser=0)
-
+![](https://lh3.googleusercontent.com/B2PxkpeRvboAIA9Dov9GBF0b7lCjqmXgD4fcgnqdQ5Qt_Uvi6bRvA2z-sQn3_76xwEhDVDSUccOfmzvTDOHzZ7wnRdASXKfSU82MWe4reB8CcFRQrK-vowZ8OADpPXvJ5phwjjLq8F-J5fy_Q7LbJ8Z4IgJvoSunuSHsw3tAMr26810mDT6HdsJ3lYW-XmtkiC96e-YKV1f-3zL2FbUc6Qv_6c5KJhYvACIdVH8Kg-Ms-tx6D-t91p_HAbe0bu9L4NgsCGiWrX3IPH3uAEtiZHP4XC9nMsRDvntyIDbrwMFE1Ao1Ge6wZXIJrAUv1wbYAFCiE3EXfjnw7geFXpnmNpLzmSbKLIXeO6egkmAALyi_Qf3OutTnBcHfn3ty1XHLWMNQlUu3LZ2193-zN1aoTRXzMAu9h4GAD3kjzrrUoOoGfXgUdHHNIi6queGbFZfxsMG48lsIZx0gok3kGJ4lDCYKy3BLFjI8E1sDceJRDZBXhZb-k4IOHRbiEK0npeSe4KrrEniDDHWUTFi5U9Hmx7r-v7JmVpxaL7dSIxoYdtKevletcqwVRGfPRDCBTWF8kTZczavYBRutAa4rh3jXQbVc6vCd00n2EXo6fdlnzFjKeut47aiBnM222vHKSJH5PO88uhxOf0UIYsAXxbJ_du0WIi83abPY8OhcUIix3eF47rKiAhs-73i0N6N1iT_SyZwqGlz52VYwpLdrrNnZsMPu=w817-h413-no?authuser=0)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/stephaniequintana/FrontEndMentor.challenges.blogr-landing-page)
-- Live Site URL: [Add live site URL here](https://stephaniequintana.github.io/FrontEndMentor.challenges.blogr-landing-page/)
+- Solution URL: [solution URL](https://github.com/stephaniequintana/FrontEndMentor.challenges.blogr-landing-page)
+- Live Site URL: [live site URL](https://stephaniequintana.github.io/FrontEndMentor.challenges.blogr-landing-page/)
 
 ## My process
 
@@ -44,12 +40,39 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- Javascript
 - Mobile-first workflow
+
+### What I learned
+
+I implemented an array of CSS variable and learned about CSS Scope and the multiple benefits both bring to the combatting the complexities of updating the overall page layout.
+
+```css
+:root {
+--light-red:hsl(356, 100%, 66%);
+--very-light-red:hsl(355,100%,74%);
+--very-dark-blue: hsl(208, 49%, 24%);
+--white: hsl(0, 0%, 100%);
+--grayish-blue: hsl(240, 2%, 79%);
+--very-dark-grayish-blue:hsl(206, 13%, 34%);
+--very-dark-black-blue: hsl(240, 10%, 16%);
+--bg-gradient-very-light-red: rgba(255, 143, 112, .8);
+--bg-gradient-light-red:rgb(255, 61, 84, .8);
+--body-grad-gray-blue:rgb(44, 45, 63);
+--body-grad-desat-blue: rgb(63, 65, 100);
+}
+```
+
+
+### Continued development
+
+I'm excited to return to Front End Mentor and am hoping I can complete many more challenges and meet some interesting Developers along the way. I am continuing my learning journey through multiple outlets and look forward to when the "impossible" seem like near-second-hand knowledge!
+
 
 
 ## Author
-
 - Frontend Mentor - [@stephaniequintana](https://www.frontendmentor.io/profile/stephaniequintana)
+
+
+
 
 
