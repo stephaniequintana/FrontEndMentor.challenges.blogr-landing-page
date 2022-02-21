@@ -1,6 +1,6 @@
 # Blogr Landing Page
 ___
-The live site can be found [here]()
+The live site can be found [here](https://stephaniequintana.github.io/FrontEndMentor.challenges.blogr-landing-page/)
 ___
 This Front End Mentor challenge focuses on responsive design utilizing HTML and CSS.
 See the [blogr-landing-page](https://www.frontendmentor.io/challenges/blogr-landing-page-EX2RLAApP) for more information or to try this challenge yourself. Frontend Mentor challenges help you improve your coding skills by building realistic projects.
